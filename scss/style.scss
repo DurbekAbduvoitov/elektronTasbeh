@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 150px auto   ; 
+        width: 130px;
+        height: 150px;
+        background-color: aqua;
+        border-radius: 30px;
+        overflow: hidden;
+        .display{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 120px;
+            height: 50px;
+            border-radius: 15px;
+            overflow: hidden;
+            color: white;
+            font-size: 20px;
+            input{
+                width: 60%;
+                height: 60%;
+                border: none;
+                background-color: green;
+                border-radius: 15px;
+                color: white;
+                font-size: 25px;
+                text-align: center;
+            }
+        }
+        .btns{
+            width: 120px;
+            height: 70px;
+            background-color: grey;
+            border-radius: 20px;
+            .clear{
+                width: 15px;
+                height: 15px;
+                background-color: blue;
+                border: none;
+                border-radius: 50%;
+                margin: 10px 90px;
+            }
+            .clear:active{
+                width: 14px;
+                height: 14px;
+            }
+            .add{
+                width: 30px;
+                height: 30px;
+                background-color: blue;
+                border: none;
+                border-radius: 50%;
+                margin: -10px 40px ;
+            }
+            .add:active{
+                width: 29px;
+                height: 29px;
+            }
+        }
+    }
+}
+
